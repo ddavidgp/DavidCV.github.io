@@ -1,0 +1,323 @@
+/* Barra de navegación */
+
+.navbar {
+  height: 80px;
+  padding: 2rem;
+  background-color: #f5f6f7;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  /*font-family: 'Ubuntu Mono', monospace;*/  
+}
+
+.seccion-oscura {
+  background-color: grey;
+  color: white;
+}
+
+.seccion-oscura2 {
+  background-color: grey;
+  color: white;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'JetBrains Mono' , monospace;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.1rem;
+  line-height: 26px;
+  color: #626262;
+}
+
+.btn.info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+.separador {
+  width: 100%;
+  height: 150px;
+  background-color: grey;
+  display: flex;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+
+/* Seccion hero */
+
+.hero {
+  /*background-color: #f5f6f7;*/
+  min-height: 450px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-image-developer {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 350px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 1150px;
+  text-align: center;
+}
+
+/* Conocimientos (experiencia) */
+
+.seccion-experiencia {
+  background-color: white;
+  color: white;
+}
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 10px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+  background-color: lightgrey;
+}
+
+.experiencia .columna:hover {
+  color:white;
+  background-color: lightgrey;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #626262;
+  background-color: white;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experiencia-texto{
+  color:#626262;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: 1.5rem;
+  /*border: 4px solid white;*/
+  /*background-color: rgb(0, 0, 0);*/
+  /*border-radius: 10px;*/
+  /*box-shadow: 0px 1px 4px 1px white;*/
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1rem 4rem;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+  font-size: 20px;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 2rem; 
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i{
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  min-height: 500px;  
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Adaptable (Responsive) */
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-image {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
